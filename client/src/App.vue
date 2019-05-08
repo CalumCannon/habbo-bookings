@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <BookingForm/>
-    <BookingList/>
+    <BookingList :bookings="bookings"/>
   </div>
 </template>
 
