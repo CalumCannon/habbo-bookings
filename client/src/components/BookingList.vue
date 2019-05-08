@@ -26,6 +26,12 @@ export default {
   }
 }
 </script>
-
 <style lang="css" scoped>
+#booking-list{
+  background-color: black;
+
+}
+.booking{
+  background-color: grey;
+}
 </style>
