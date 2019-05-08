@@ -7,7 +7,7 @@
 		</div>
 		<div>
 			<label for="email-address">Email Address:</label>
-			<input type="text" id="email-address" v-model="EmailAddress" />
+			<input type="text" id="email-address" v-model="email" />
 		</div>
 		<div>
 			<label for="checked-in">Checked in:</label>
@@ -19,12 +19,14 @@
 </template>
 
 <script>
+import BookingService from '@/services/bookingService'
+import { eventBus } from '@/main.js'
 export default {
   name: "BookingForm",
   	data(){
   		return {
   			name: "",
-  			emailAddress: "",
+  			email: "",
   			checkedIn: null
   		}
   	},
@@ -35,7 +37,7 @@ export default {
 
       const payload = {
         name: this.name,
-        emailAddress: this.emailAddress,
+        email: this.email,
         checkedIn: this.checkedIn
       };
 
