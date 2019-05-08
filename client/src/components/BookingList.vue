@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import { eventBus } from './main';
-import BookingService from '@/services/BookingService.js';
+import { eventBus } from '@/main.js';
+import BookingService from '@/services/bookingService.js';
 
 export default {
   name: "BookingList",
