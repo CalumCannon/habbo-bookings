@@ -1,9 +1,11 @@
 <template lang="html">
   <div id="bookings-list">
     <div class="booking" v-for="booking in bookings">
-      <h2>{{booking.name}}</h2>
-      <h3>{{booking.email}}</h3>
-      <p>Checked in {{booking.checkedIn}}</p>
+      <div id="info-container">
+        <h2>{{booking.name}}</h2>
+        <h3>{{booking.email}}</h3>
+        <p>Checked in {{booking.checkedIn}}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -26,6 +28,20 @@ export default {
   }
 }
 </script>
-
 <style lang="css" scoped>
+#booking-list{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.booking{
+  background-color: grey;
+  display: inline-grid;
+  width: 30%;
+  margin: 10px;
+}
+.info-container{
+
+}
 </style>
