@@ -29,33 +29,30 @@ export default {
 }
 </script>
 <style lang="css" scoped>
-#booking-list{
-<<<<<<< HEAD
-
-=======
+.booking-list{
   margin-top: 10%;
   background-color: black;
->>>>>>> 5edcd5f6d6046cf3433c154ee395d9502e0731ac
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 .booking{
-<<<<<<< HEAD
+
   background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 4%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
   background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 4%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
   display: inline-grid;
   width: 30%;
   margin: 10px;
   border: 3px solid orange;
-=======
+
   background-color: #ff9a00;
   display: inline-grid;
   width: 30%;
   margin: 10px;
   border-radius: 20px;
   text-align: center;
->>>>>>> 5edcd5f6d6046cf3433c154ee395d9502e0731ac
+
 }
 .info-container{
 
