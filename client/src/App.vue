@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
+    <img id="habbo" src="../public/images/Habbo-logo.png">
+
+  <div id="booking">
+    <BookingForm/>
+    <BookingList :bookings="bookings"/></div>
+=======
 
     <div class="background">
       <img id="background" src="@/../public/images/hotel2.png" alt="">
@@ -16,6 +23,7 @@
     </div>
 
     </div>
+>>>>>>> 4b91d7a96021ad87c6ab512caa1f0cc4c86af365
   </div>
 </template>
 
