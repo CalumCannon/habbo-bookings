@@ -30,18 +30,26 @@ export default {
 </script>
 <style lang="css" scoped>
 #booking-list{
-  background-color: black;
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 .booking{
-  background-color: grey;
+  background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 4%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 4%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
   display: inline-grid;
   width: 30%;
   margin: 10px;
+  border: 3px solid orange;
 }
 .info-container{
+
+}
+
+p, h1, h2, h3{
+  color: white;
+  padding-left: 5px;
 
 }
 </style>
